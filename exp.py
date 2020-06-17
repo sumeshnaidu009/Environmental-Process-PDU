@@ -1,7 +1,7 @@
 import time
 import urllib.request, json
 time = int(time.time())
-print(time)
+print (time)
 f = 'https://api.darksky.net/forecast/c260318659d78342a4f516ccfd74b27c/47.67228,9.384921,'
 m = str(time)
 l = '?exclude=daily,hourly,minutely,alerts,flags'
